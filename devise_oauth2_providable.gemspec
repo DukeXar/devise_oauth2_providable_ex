@@ -12,12 +12,10 @@ Gem::Specification.new do |s|
   s.summary     = %q{OAuth2 Provider for Rails3 applications}
   s.description = %q{Rails3 engine that adds OAuth2 Provider support to any application built with Devise authentication}
 
-  s.rubyforge_project = "devise_oauth2_providable"
-
   s.add_runtime_dependency(%q<rails>, [">= 3.1.0"])
   s.add_runtime_dependency(%q<devise>, [">= 1.4.3"])
   s.add_runtime_dependency(%q<rack-oauth2>, ["~> 0.11.0"])
-  s.add_development_dependency(%q<rspec-rails>, ['2.6.1'])
+  s.add_development_dependency(%q<rspec-rails>, ['2.11.0'])
   s.add_development_dependency(%q<sqlite3>, ['1.3.5'])
   s.add_development_dependency(%q<shoulda-matchers>, ['1.0.0.beta3'])
   s.add_development_dependency(%q<pry>, ['0.9.6.2'])
